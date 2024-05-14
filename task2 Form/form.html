@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Personal Details</h1>
+        <hr>
+    </header>
+    <div class="form">
+
+        <form action="mailto:contact@hotellya.com">
+            <label for="name"> Username</label>
+            <input type="text">
+        </form>
+        <br>
+
+        <label for="name"> Password</label>
+        <input type="text">
+        <br><br>
+        <label for="name"> Gender</label>
+        <input type="radio" id="male" name="Gender" value="male"> male
+        <input type="radio" id="female" name="Gender" value="female"> female
+        <br><br>
+        <label for="name"> Hobbies </label>
+        <input type="checkbox" id="Book Reading" name="Hobbies" value="Book Reading"> Bookreading
+        <input type="checkbox" id="Music" name="Hobbies" value="Music"> Music
+        <input type="checkbox" id="Travelling" name="Hobbies" value="Travelling"> Travelling
+
+        <br><br>
+        <label for="Country"> Country</label>
+        <select name="Pakistan" id="Pakistan">Pakistan
+            <option value="Pakistan">Pakistan</option>
+            <option value="Hindustan">Hindustan</option>
+        </select>
+        </form>
+        <br><br>
+        <label for="Message">Message</label><br>
+        <textarea name="Message" id="" cols="30" rows="5"></textarea>
+    </div>
+    <input type="submit" value="save">
+    <input type="reset" value="reset">
+</body>
+
+</html>
