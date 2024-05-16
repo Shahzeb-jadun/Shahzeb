@@ -1,0 +1,25 @@
+*
+{
+    background-color: green;
+    color: white;
+}
+header
+h1
+{
+    text-align: center;
+}
+.hero
+{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    border: 2px;
+     border: white; 
+     border: dashed;
+     padding: 20px;
+}
+img
+{
+    width: 20%;
+}
+

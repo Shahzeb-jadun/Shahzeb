@@ -1,0 +1,17 @@
+.container1 {
+    border: 2px;
+    border: solid;
+    height: 400px;
+    border-radius: 4px;
+    border-color: green;
+    text-align: center;
+}
+
+.container2 {
+    text-align: center;
+    border: 2px;
+    border: solid;
+    height: 400px;
+    border-radius: 4px; 
+    border-color: blue;
+}

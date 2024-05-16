@@ -1,0 +1,10 @@
+.hero{
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-image: url(https://www.komar.de/media/catalog/product/cache/5/image/9df78eab33525d08d6e5fb8d27136e95/S/H/SHX8-087_1568286487.jpg);
+}
+
+.container1{
+    text-align: center;
+    background-image: url(https://cdn-imgix.headout.com/media/images/591896b9b3c433bbfa609342793d1ce4-23195-boston-tickets-to-view-boston-05.jpg?auto=format&q=90&crop=faces);
+}
