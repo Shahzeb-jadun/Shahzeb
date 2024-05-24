@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    background-image: url(https://app.techdestination.com/public/assets/assets/images/gradient.png?v=2.1.50);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            padding-left: 20px;
+            color: #20697D;
+        }
+    }
+
+    .hright {
+        background-color: #20697D;
+        padding: 10px;
+    }
+}
+
+.section1 {
+    video {
+        width: 100%;
+    }
+}
+
+.section2 {
+    display: flex;
+
+    .s21 {
+        margin: 165px;
+    }
+}
+
+.section3 {
+    display: flex;
+
+    .s3h1 {
+        color: #20697D;
+        margin-left: 60px;
+        font-size: 40px;
+    }
+
+    .s31 {
+        width: 999px;
+    }
+
+    .s32 {
+        width: 400px;
+        margin-top: 15px;
+    }
+
+    .s3i1 {
+        width: 100%;
+    }
+}
+
+.section4 {
+    display: flex;
+    background-color: #e0f2f2;
+
+    .s41 {
+        margin: 130px;
+        color: #14667f;
+        line-height: 40px;
+    }
+
+    .s4i1 {
+        margin-top: 165px;
+    }
+}
+
+.section5 {
+    display: flex;
+
+    .s52 {
+        margin: 4%;
+        color: #14667f;
+        width: 50%;
+
+    }
+
+    .s5v1 {
+        width: 85%;
+        margin-top: 100px;
+        margin: 100px;
+    }
+}
+
+.section8 {
+    background-color: #e0f2f2;
+    color: #14667f;
+    padding: 70px;
+
+    .s8 {
+        display: flex;
+        justify-content: space-between;
+        /* width: 300px; */
+        height: 300px;
+        margin: 10px;
+
+    }
+}
+
+.s6i1 {
+    width: 75%;
+    margin-top: 50px;
+}
+
+.s61 {
+    margin: 130px;
+    color: #14667f;
+    line-height: 40px;
+    width: 50%;
+}
+
+.section9 {
+    display: flex;
+
+    /* justify-content: space-between; */
+    .s91 {
+        width: 20%;
+        margin-left: 50px;
+        color: #14667f;
+        margin-top: 35px;
+    }
+
+    .s92 {
+        width: 70%;
+    }
+
+    .im4 {
+        width: 100%;
+    }
+
+    .im3 {
+        width: 100%;
+    }
+
+    .im92 {
+        width: 100%;
+        margin: 3%;
+    }
+
+    .im93 {
+        width: 100%;
+        margin: 3%;
+    }
+
+    .im2 {
+        width: 100%;
+        margin-top: 90px;
+    }
+
+    .im1 {
+        width: 100%;
+        /* margin-top: 90px; */
+    }
+}
+
+.section91 {
+    color: #14667f;
+    width: 100%;
+
+    .s91h {
+        margin-left: 35%;
+        font-size: 23px;
+
+    }
+
+    .s91i {
+        width: 95%;
+        margin: 25px;
+    }
+
+}
+
+.section10 {
+    background-image: url(https://app.techdestination.com/public/assets/assets/images/bg-form-img.png);
+
+    padding: 50px;
+    color: #14667f;
+    text-align: center;
+    font-size: 20px;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form1 {
+
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    margin: 50px 25%;
+    /* display: inline-block; */
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    box-sizing: border-box;
+
+    .name {
+        width: 80%;
+        padding: 10px;
+        color: gray;
+        border-radius: 1px;
+    }
+
+    .f11 {
+        display: inline-grid;
+        width: 25%;
+        margin: 1%;
+    }
+    .f12{
+        /* width: 80%; */
+        padding: 10px;
+        color: gray;
+        border-radius: 1px;
+    }
+
+    
+}
+
+.btn{
+    padding: 10px;
+background-color: #14667f;
+color: white;
+border-radius: 18px;
+width: 100px;
+}
+
+.footer{
+    background-color: #e0f2f2;
+    padding: 30px;
+    .fi1{
+        border-right: solid black;
+    }
+    .f1i1{
+        width: 4%;
+    }
+}
