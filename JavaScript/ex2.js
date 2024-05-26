@@ -48,3 +48,21 @@ function calculate5StarsPercentage(course) {
 }
 
 document.getElementById('percentage-5-stars').innerText = calculate5StarsPercentage(course);
+
+
+
+
+
+// next question
+
+var shoppingList = ["Milk", "Butter", "Juice", "Bread", "Beer", "Rice", "Potatoes", "Chocolate"];
+
+// Get the last item and place it at the beginning of the list
+var lastItem = shoppingList.pop();
+shoppingList.unshift(lastItem);
+
+// Add two more items at the end of the list: Cheese and Eggs
+shoppingList.push("Cheese", "Eggs");
+
+// Show the updated list in the console
+console.log(shoppingList);
