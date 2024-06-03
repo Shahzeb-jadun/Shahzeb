@@ -61,22 +61,22 @@ document.getElementById('positiveSum').textContent = positiveSum;
 // Mean and Median Example
 const meanMedianOriginalArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-function calculateMean(arr) {
+const calculateMean = arr => {
     if (arr.length === 0) return 0;
     const sum = arr.reduce((acc, num) => acc + num, 0);
     return sum / arr.length;
-}
+};
 
-function calculateMedian(arr) {
+const calculateMedian = arr => {
     if (arr.length === 0) return 0;
     const sortedArr = [...arr].sort((a, b) => a - b);
     const mid = Math.floor(sortedArr.length / 2);
     if (sortedArr.length % 2 === 0) {
-        return (sortedArr[mid - 1] + sortedArr[mid]) * 0.5;
+        return (sortedArr[mid - 1] + sortedArr[mid]) / 2;
     } else {
         return sortedArr[mid];
     }
-}
+};
 
 const meanValue = calculateMean(meanMedianOriginalArray);
 const medianValue = calculateMedian(meanMedianOriginalArray);
@@ -84,7 +84,6 @@ const medianValue = calculateMedian(meanMedianOriginalArray);
 document.getElementById('meanMedianOriginalArray').textContent = meanMedianOriginalArray.join(', ');
 document.getElementById('meanValue').textContent = meanValue;
 document.getElementById('medianValue').textContent = medianValue;
-
 
 
 
