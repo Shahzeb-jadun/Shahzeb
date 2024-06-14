@@ -3,6 +3,7 @@ import MyNewTask from './Profile';
 import MyTask2 from './task2';
 import MyTask3 from './task3';
 import MyTask4 from './task4';
+import NewDot from './assets/Components/ProbDot';
 
 
 export default function App() {
@@ -42,6 +43,9 @@ export default function App() {
       <MyTask4>
       <h1>This is Task 4</h1>
       </MyTask4>
+     </div>
+     <div>
+      <NewDot/>
      </div>
     </>
   );

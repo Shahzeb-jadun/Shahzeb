@@ -4,7 +4,7 @@
 function Item({ name, isPacked }) {
   return (
     <li className="item">
-      {name} {isPacked && 'True'}
+      {name} {isPacked ? ' 😏 ' : `💩` }
     </li>
   );
 }
